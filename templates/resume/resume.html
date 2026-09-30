@@ -1,0 +1,195 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Mahta Sharifi — Backend Developer specializing in Python and Django." />
+    <meta name="author" content="Mahta Sharifi" />
+    <meta name="theme-color" content="#f8fafc" />
+    <title>Mahta Sharifi | Backend Developer</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'assets/img/favicon.ico' %}" />
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}?v=3" />
+</head>
+<body>
+    <main class="portfolio">
+        <header class="hero">
+            <div class="identity">
+                <img class="profile-photo" src="{% static 'assets/img/profile.jpg' %}" alt="Mahta Sharifi" />
+                <div>
+                    <p class="eyebrow">Backend Developer</p>
+                    <h1>Mahta Sharifi</h1>
+                    <p class="role">Python &amp; Django · Internal Systems · Databases</p>
+                </div>
+            </div>
+
+            <div class="contact-actions" aria-label="Contact links">
+                <a class="contact-link contact-link-primary" href="mailto:mahtasharifi45@gmail.com">Email</a>
+                <a class="contact-link" href="https://github.com/mahtasharifi" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+        </header>
+
+        <div class="hero-detail">
+            <p class="summary">
+                Backend Developer focused on Python and Django, with hands-on experience building internal business systems from requirement analysis and database design through backend development, access control, deployment, support, and continuous improvement. I work directly with project managers and system users to turn operational needs into reliable, practical features.
+            </p>
+            <div class="meta" aria-label="Location and phone">
+                <span>Tehran, Iran</span>
+                <span class="meta-separator" aria-hidden="true">·</span>
+                <a href="tel:+989912247491">09912247491</a>
+            </div>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="main-grid">
+            <section class="section experience" aria-labelledby="experience-title">
+                <div class="section-heading">
+                    <p class="section-index">01</p>
+                    <h2 id="experience-title">Experience</h2>
+                </div>
+
+                <div class="job-heading">
+                    <div>
+                        <h3>Internal Systems Developer</h3>
+                        <p class="company">Nesha Group</p>
+                    </div>
+                    <p class="date">Nov 2024 — Present</p>
+                </div>
+
+                <ul class="clean-list experience-list">
+                    <li>Design and develop internal web applications with Python and Django, covering requirement analysis, system and database design, models, forms, views, admin customization, access control, and core feature development.</li>
+                    <li>Built a mentoring management system covering the full process from pre-mentoring and user information collection to mentor/mentee management, matching, sessions, follow-up workflows, reporting, and post-mentoring activities.</li>
+                    <li>Developed internal forms, library features, and tools that replaced manual and Excel-based processes.</li>
+                    <li>Work directly with the project manager and system users to support deployed systems, resolve reported issues, and deliver new features as requirements evolve.</li>
+                </ul>
+            </section>
+
+            <section class="section skills" aria-labelledby="skills-title">
+                <div class="section-heading">
+                    <p class="section-index">02</p>
+                    <h2 id="skills-title">Skills</h2>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>Models / Forms / Views</span>
+                        <span>Templates &amp; Admin</span>
+                        <span>Authentication &amp; RBAC</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span>Database Design</span>
+                        <span>Data Modeling</span>
+                        <span>MySQL</span>
+                        <span>PostgreSQL</span>
+                        <span>SQL Server</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Tools &amp; Workflow</h3>
+                    <div class="skill-tags">
+                        <span>Git &amp; GitHub</span>
+                        <span>HTML / CSS / JavaScript</span>
+                        <span>Excel &amp; Power BI</span>
+                        <span>Requirement Analysis</span>
+                        <span>Feature Development</span>
+                        <span>Problem Solving</span>
+                    </div>
+                </div>
+
+                <p class="skill-note">Internal system development, database design, backend development, and direct collaboration with project managers.</p>
+            </section>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <section class="section projects" aria-labelledby="projects-title">
+            <div class="section-heading section-heading-row">
+                <div class="heading-label">
+                    <p class="section-index">03</p>
+                    <h2 id="projects-title">Selected Projects</h2>
+                </div>
+                <p class="section-caption">Practical systems built around real workflows.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project project-featured">
+                    <div class="project-topline">
+                        <p class="project-type">Internal System</p>
+                        <p class="project-stack">Python · Django · MySQL · HTML/CSS/JS</p>
+                    </div>
+                    <h3>Mentoring &amp; Information Management System</h3>
+                    <p>Designed and developed an internal web application for the full mentoring lifecycle, from pre-mentoring to post-mentoring. The system includes mentor and mentee management, matching, session management, reporting, role-based access control, Excel import/export, admin tools, and internal forms. I also designed the database structure and core backend features.</p>
+                </article>
+
+                <article class="project">
+                    <div class="project-topline">
+                        <p class="project-type">Portfolio Project</p>
+                        <p class="project-stack">Python · Django · MySQL · HTML/CSS/JS</p>
+                    </div>
+                    <h3>Library Management System</h3>
+                    <p>Designed and developed a web-based library management system with Django and MySQL, including database design, backend logic, and the main system features.</p>
+                    <a class="project-link" href="https://github.com/mahtasharifi/library-management-system" target="_blank" rel="noopener noreferrer">View project on GitHub ↗</a>
+                </article>
+
+                <article class="project">
+                    <div class="project-topline">
+                        <p class="project-type">Django Project</p>
+                        <p class="project-stack">Python · Django · MySQL · HTML/CSS/JS</p>
+                    </div>
+                    <h3>Django E-commerce Website</h3>
+                    <p>Designed and developed an e-commerce website with Django and MySQL, focusing on backend development and database structure while implementing the frontend pages and interactions required for a complete application flow.</p>
+                </article>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <div class="bottom-grid">
+            <section class="section education" aria-labelledby="education-title">
+                <div class="section-heading">
+                    <p class="section-index">04</p>
+                    <h2 id="education-title">Education</h2>
+                </div>
+                <div class="education-row">
+                    <div>
+                        <h3>Islamic Azad University, Central Tehran Branch</h3>
+                        <p>Bachelor's Degree in Computer Engineering — Software</p>
+                        <p class="minor">GPA: 16/20</p>
+                    </div>
+                    <p class="date">2021 — 2025</p>
+                </div>
+            </section>
+
+            <section class="section courses" aria-labelledby="courses-title">
+                <div class="section-heading">
+                    <p class="section-index">05</p>
+                    <h2 id="courses-title">Courses</h2>
+                </div>
+                <ul class="course-list">
+                    <li><strong>Backend Development with Django</strong><span>Maktabkhooneh · 2026</span></li>
+                    <li><strong>Advanced Python</strong><span>Maktabkhooneh · 2025</span></li>
+                    <li><strong>Python Fundamentals</strong><span>Maktabkhooneh · 2024</span></li>
+                    <li><strong>SQL Server 2022 Database Development</strong><span>Tehran Institute of Technology · 2024</span></li>
+                </ul>
+            </section>
+        </div>
+
+        <footer class="footer">
+            <p>Mahta Sharifi · Backend Developer</p>
+            <div>
+                <a href="mailto:mahtasharifi45@gmail.com">Email</a>
+                <a href="https://github.com/mahtasharifi" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
