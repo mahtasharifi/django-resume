@@ -37,3 +37,13 @@ Open `http://127.0.0.1:8000/`.
 
 - GitHub: `github.com/mahtasharifi`
 - Email: `mahtasharifi45@gmail.com`
+
+## Preview
+
+### Desktop
+
+![Desktop Preview](screenshots/resume-desktop.png)
+
+### Mobile
+
+![Mobile Preview](screenshots/resume-mobile.png)
