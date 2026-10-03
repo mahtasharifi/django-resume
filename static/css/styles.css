@@ -967,3 +967,68 @@ h3 {
         display: none;
     }
 }
+
+/* Certificate links */
+.course-list li {
+    align-items: center;
+}
+
+.course-meta {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 9px;
+    min-width: max-content;
+}
+
+.course-meta span {
+    color: var(--muted);
+    font-size: 0.76rem;
+    text-align: right;
+}
+
+.certificate-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 28px;
+    padding: 4px 8px;
+    border: 1px solid #cfe0ff;
+    border-radius: 7px;
+    background: var(--accent-soft);
+    color: var(--accent-dark);
+    font-size: 0.71rem;
+    line-height: 1.2;
+    font-weight: 750;
+    white-space: nowrap;
+    transition: border-color 120ms ease, background-color 120ms ease, color 120ms ease;
+}
+
+.certificate-link:hover {
+    border-color: #aecaFF;
+    background: #e4edff;
+    color: #123ba7;
+}
+
+@media (max-width: 720px) {
+    .course-list li {
+        grid-template-columns: 1fr;
+        gap: 6px;
+    }
+
+    .course-meta {
+        justify-content: flex-start;
+        min-width: 0;
+    }
+
+    .course-meta span {
+        min-width: 34px;
+        text-align: left;
+    }
+
+    .certificate-link {
+        min-height: 30px;
+        padding: 5px 9px;
+        font-size: 0.72rem;
+    }
+}

@@ -40,10 +40,6 @@ Open `http://127.0.0.1:8000/`.
 
 ## Preview
 
-### Desktop
-
-![Desktop Preview](screenshots/resume-desktop.png)
-
 ### Mobile
 
 ![Mobile Preview](screenshots/resume-mobile.png)
